@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>산책회 안내</title>
+	<style>
+    li{
+    list-style-type: none;
+  }
+	body{
+		background-image: url('img/bg.png')
+	}
+	*{margin: 0; padding: 0;}
+  header{
+ width:1200px;
+ height:100px;
+ margin-top:70px;
+ border-bottom:solid 1px pink;
+}
+	#logo{
+	float:left;
+	}
+	nav{
+	 width:1200px;
+	 height:70px;
+	 margin-top:10px;
+	 }
+	 nav li{
+	 	float:left;
+	 }
+	 #logo{
+ float:left;
+}
+#top{
+float:right;
+    font-size: 17px;
+    margin: 20px;
+   width: 250px;
+   background-color: white;
+   color: #FF5157;
+   text-align: center;
+   border-radius: 5px;
+   border: dotted 2px pink;
+}
+#page{
+ width:1200px;
+ margin:0 auto;
+}
+footer{
+ width:1200px;
+ border-top:solid 1px pink;
+ margin-top:20px;
+}
+.clear{
+ clear:both;
+}
+#address{
+ float:left;
+ margin:30px 0 0 0px;
+}
+#customer{
+ float:left;
+ margin:20px 0 0 500px;
+}
+ form{
+      line-height: 40px;
+    }
+    table, th, td{
+      border: solid 1px pink;
+      color:  gray;
+      background-color:#F7F7F7;
+    }
+    table{
+      border-collapse: collapse;
+      margin-left: 430px;
+      border-top: solid 10px pink;
+    }
+    #ok{
+      margin-left: 570px;
+    }
+	</style>
+</head>
+
+<body>
+<div id="page">
+ <div class="img/clear"></div>
+ <header>
+  <div id="logo">
+   <a href="index.html"><img src="img/logo.png">
+  </div>
+  <div id="top">
+  <a href="login.html"><img src="img/login3.png"></a>|<a href="join.html"><img src="img/join2.png"></a>
+  </div>
+ </header>
+ <div class="clear"></div>
+ <nav>
+  <ul>
+  <li><a href="profile.html"><img src="img/menu01.png"></a></li>
+   <li><a href="gallery.html"><img src="img/menu02.png"></a></li>
+   <li><a href="Dachshund.html"><img src="img/menu03.png"></a></li>
+   <li><a href="stroll.html"><img src="img/menu04.png"></a></li>
+  </ul>
+ </nav>
+ <img src="img/stroll.png">
+ <form>
+    <table>
+    <tr><td>· 이&nbsp;&nbsp;&nbsp;름 : <input type="text"><br></td></tr>
+    <tr><td>· 연락처 : <input type="text" size="3">-<input type="text" size="4">-<input type="text" size="4"><br></td></tr>
+    <tr><td>· 성별 : 
+    <input type ='radio' name = 'gender'> 여성
+    <input type ='radio' name = 'gender'>  남성<br>
+    <tr><td>· 이메일 : <input type="text"> @
+    <select size=1>
+    <option> 선택</option>
+    <option> naver.com</option>
+    <option> hanmail.com</option>
+    <option> gmail.com</option>
+    <option> 직접입력</option>
+      </select><br></td></tr>
+  </table>
+  <a id='ok'><input type="image" src="img/ok.png" alt="제출"></a>
+ </form>
+  <footer>
+  <div id="address">
+   <img src="img/address.png">
+  </div>
+  <div id="customer">
+   <img src="img/customer.png">
+  </div>
+ </footer>
+ <div class="clear"></div>
+</body>
+</html>

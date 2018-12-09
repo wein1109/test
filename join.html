@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>회원가입</title>
+	<style>
+	body{
+   background-image: url('img/bg.png');
+  }
+	 *{margin: 0; padding: 0;}
+  #t{
+   margin-left: 900px;
+  }
+		form{
+			line-height: 40px;
+		}
+		table, th, td{
+			border: solid 1px pink;
+			color:  gray;
+			background-color:#F7F7F7;
+		}
+		table{
+			border-collapse: collapse;
+			margin-left: 750px;
+			border-top: solid 10px pink;
+		}
+		#Membership{
+			color: pink;
+			font-size: 40px;
+			font-weight: bold;
+			margin-left: 750px;
+			border-top:solid 6px pink;
+		}
+		#logo{
+			margin-top: 100px;
+			margin-left: 750px;
+		}
+		#join{
+			margin-left: 1080px;
+		}
+	</style>
+</head>
+<body>
+<a href="index.html"><img id ='logo'  src='img/logo.png'></a>
+	<form>
+		<br><a id='Membership'>회원가입<br></a>
+		<table>
+		<tr><td>· 아이디(필수)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br></td></tr>
+		<tr><td>· 비밀번호(필수)&nbsp;&nbsp;<input type="password"><br></td></tr>
+		<tr><td>· 비밀번호 확인&nbsp;&nbsp;&nbsp;<input type="password"><br></td></tr>
+		<tr><td>· 이름(필수)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br></td></tr>
+		<tr><td>· 휴대전화(필수)&nbsp;&nbsp;<input type="text" size="3">-<input type="text" size="4">-<input type="text" size="4"><br></td></tr>
+		<tr><td>· 성&nbsp;&nbsp;별 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type ='radio' name = 'gender'> 여성
+		<input type ='radio' name = 'gender'>  남성<br>
+		<tr><td>· 이메일 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"> @
+		<select size=1>
+ 		<option> 선택</option>
+ 		<option> naver.com</option>
+ 		<option> hanmail.com</option>
+ 		<option> gmail.com</option>
+ 		<option> 직접입력</option>
+ 	    </select><br></td></tr>
+		<tr><td>· 메일수신 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type ='radio' name = 'mailcheck'> 동의
+		<input type ='radio' name = 'mailcheck'> 비동의<br></td></tr>
+		<tr><td>· SMS 수신 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type ='radio' name = 'SMScheck'> 동의
+		<input type ='radio' name = 'SMScheck'> 비동의<br></td></tr>
+	</table>
+	<a id='join'><input type="image" src="img/join.png" alt="JOIN"></a>
+	</form>
+</body>
+</html>
